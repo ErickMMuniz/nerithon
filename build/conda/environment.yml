@@ -1,0 +1,8 @@
+name: nerithon
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - matplotlib
+  - pandas
+  - requests

@@ -1,13 +1,9 @@
 # Useful commands
 
-### Export env 
+### Export env
 
 ```
-conda env export | grep -v "^prefix: " > environment.yml
-```
-
-```
-conda list --explicit > spec-file.txt
+conda env export --from-history | grep -v "^prefix: " > build/conda/environment.yml
 ```
 
 ### Remove env
