@@ -11,12 +11,11 @@ SRC = os.path.abspath(os.path.join(ROOT, "src"))
 sys.path.append(ROOT)
 sys.path.append(SRC)"""
 
+
 def _generate_nb_with_confs(output_path: TextIO) -> None:
     nb = new_notebook()
     nb["cells"].append(new_markdown_cell("## Confs"))
-    nb["cells"].append(
-        new_code_cell(NB_CONFS_CODE)
-    )
+    nb["cells"].append(new_code_cell(NB_CONFS_CODE))
     with open(output_path, "w") as f:
         nbformat.write(nb, f)
         f.close()
