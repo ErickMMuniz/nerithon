@@ -6,3 +6,4 @@ ganagato.csv
 
 #Cache files
 *.pyc
+notebooks/.ipynb_checkpoints
