@@ -3,3 +3,6 @@ test.py
 
 #Some data file to ignore
 ganagato.csv
+
+#Cache files
+*.pyc
