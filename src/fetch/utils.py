@@ -12,5 +12,5 @@ def download_file(url: TextIO, output: Text) -> Optional[Text]:
                 f.close()
             r.close()
         return output
-    except requests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException as _:
         return None

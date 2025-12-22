@@ -1,6 +1,6 @@
 import nbformat
 from nbformat.v4 import new_notebook, new_code_cell, new_markdown_cell
-from typing import TextIO, Optional, Text
+from typing import Optional, Text
 from time import time
 import os
 
