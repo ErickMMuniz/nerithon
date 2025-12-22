@@ -1,0 +1,9 @@
+notes.txt
+test.py
+
+#Some data file to ignore
+ganagato.csv
+
+#Cache files
+*.pyc
+notebooks/.ipynb_checkpoints
